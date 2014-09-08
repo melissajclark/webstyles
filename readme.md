@@ -1,4 +1,4 @@
-## Web Styles
+## Web Styles (HTML)
 **By**: [Melissa Jean Clark](http://melissajclark.ca)
 
 **Demo**: http://webstyles.ninja
