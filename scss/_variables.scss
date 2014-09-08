@@ -1,0 +1,70 @@
+//===================================================
+//           Template Variables / Styles            
+//===================================================
+
+//==========  Fonts  ==========
+
+$main-font: "Pontano Sans", sans-serif; // main-font = body font in Main Template
+
+
+//======  Template Structure Variables  ======
+
+$accent-colour: rgba(59, 68, 72, 0.48); 
+$link-colour: rgba(160, 33, 172, 0.7);
+$accent-colour2: #E3D434;
+
+//============================================
+//           Body Style Variables            
+//============================================
+
+
+
+//=========================================================
+//            Colour Palette Variables / Styles           =
+//=========================================================
+
+$blank-colourpalette: $accent-colour;
+
+
+//==========  Colour Palette #1  ==========
+
+// Variable Format: $colourpalette#-colour#
+/*! Same format used for CSS class - simply use the class to markup your HTML /PHP  */
+
+		$colourpalette1-colour1: #0c1633;
+
+		$colourpalette1-colour2: #3A434E;
+
+		$colourpalette1-colour3: #94A5B7;
+
+		$colourpalette1-colour4: #E1E6EA;
+
+		$colourpalette1-colour5: #e34627;
+
+		$colourpalette1-colour6: #E76885;
+
+		$colourpalette1-colour7: #e8c078;
+		
+		$colourpalette1-colour8: #d3803e;
+
+
+//==========  Colour Palette #2 ==========
+
+// Variable Format: $colourpalette#-colour#
+/*! Same format used for CSS class - simply use the class to markup your HTML /PHP  */
+
+		$colourpalette2-colour1: #0c1633;
+
+		$colourpalette2-colour2: #3A434E;
+
+		$colourpalette2-colour3: #94A5B7;
+
+		$colourpalette2-colour4: #E1E6EA;
+
+		$colourpalette2-colour5: #888A8B;
+
+		$colourpalette2-colour6: #C4A176;
+
+		$colourpalette2-colour7: #438D8D;
+		
+		$colourpalette2-colour8: #606382;

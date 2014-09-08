@@ -1,0 +1,89 @@
+//=========================================
+//            Typography Mixins            =
+//=========================================*/
+
+// Thin Scriptive / Decorative Font
+
+@mixin thick-scriptive {
+font:	{
+	family: "Lobster",cursive;
+	style: normal;
+	weight: 400;
+	}
+}
+
+// Beautiful Thick Scriptive Font
+
+@mixin thin-scriptive {
+font: {
+	family: "sail",cursive;
+	style: normal;
+	weight: 400;
+	}
+}
+
+// Sans Serif / Basic Font
+@mixin main-font-sans {
+font:{
+	family: "Source Sans Pro",sans-serif;
+	style: normal;
+	weight: 400;
+	}
+}
+
+@mixin main-font-sans-2 {
+font:{
+	family: 'Marmelad', sans-serif;
+	style: normal;
+	weight: 400;
+	}
+}
+
+@mixin main-font-serif {
+font: {
+	family: "Marcellus",serif;
+	tyle: normal;
+	weight: 400;
+	}
+}
+
+@mixin main-font-serif-2 {
+	font: {
+	family: "Kameron",serif;
+	style: normal;
+	weight: 400;
+	}
+}
+
+
+
+
+//-----  End of Typography Mixins  ------
+
+// feature styles
+@mixin default-style {
+	margin:auto;
+	margin-top:4%;
+	display:block;
+	padding:2%;
+	text-align:center;
+	font-style:italic;
+	background-color: lighten($accent-colour,60);
+	border-radius: 5px;
+	max-width:400px;
+	width:90%;
+}
+
+@mixin reset-default-style {
+	margin:auto;
+	margin-top:inherit;
+	display:block;
+	padding:0;
+	text-align:center;
+	font-style:normal;
+	background-color: #fff;
+	border-radius: 5px;
+	max-width:95%;
+	width:90%;
+}
+

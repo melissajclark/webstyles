@@ -1,0 +1,47 @@
+/*!
+
+=====================================================
+=           	#Links  (main template)				=
+====================================================
+
+*/
+
+a.nav{
+	font-weight:bold;
+	text-align:center;
+	text-decoration:none;
+}
+
+a.nav:hover, a:hover {
+	color:purple;
+	background-colour: darken($accent-colour, 50);
+	border-bottom:2px solid #444;
+}
+
+a {
+	text-decoration:none;
+	color: darken($link-colour,10);
+	font-weight:bold;
+}
+
+a.anchor, a.anchor:hover {
+	border-bottom:none;
+	color: #444;
+	font-weight:400;
+}
+
+a img:hover {
+	border: 2px solid darken($link-colour,10); 
+}
+
+a.image:hover, a.image {
+	border-bottom:none;
+}
+
+/*!
+
+=====================================================
+=           End of #Links  (main template)			=
+====================================================
+
+*/

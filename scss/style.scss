@@ -1,0 +1,59 @@
+/*!
+Project: 	Web Styles
+By: 		Melissa Jean Clark
+Author: 	http://melissajclark.ca
+Description: Template for design ideas to share with client.
+
+Original CSS Structure based off of Skeleton by Dave Gamache.
+
+*
+* Skeleton V1.2
+* Copyright 2011, Dave Gamache
+* www.getskeleton.com
+* Free to use under the MIT license.
+* http://www.opensource.org/licenses/mit-license.php
+* 6/20/2012
+*/
+
+
+//RESET & BASE
+//------------------
+@import "_variables";
+@import "_mixins";
+@import "_credits-and-contents";
+@import "_reset-and-basics";
+
+
+// Main Template Styles
+//-------------- 
+@import "_typography"; // main template styles
+@import "links";
+
+
+// Body Styles
+//--------------
+@import "body-styles/_bodystyle1";
+@import "body-styles/_bodystyle2";
+@import "body-styles/_bodystyle3";
+@import "body-styles/_bodystyle4";
+
+
+// IMAGES ETC 
+//----------------
+@import "_images-and-graphics";
+@import "_forms-and-buttons";
+
+
+// LAYOUT & Grid
+//------------------ 
+@import "_layout";
+@import "_skeleton";
+
+
+// = CUSTOM COLOUR PALETTES
+//------------------
+@import "colour-palettes/_colourpalettes"; // general styling
+@import "colour-palettes/_colourpalette1"; // individual palette
+@import "colour-palettes/_colourpalette2"; // individual palette
+
+
