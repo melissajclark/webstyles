@@ -1,14 +1,14 @@
-## Web Styles (HTML)
+# Web Styles
 **By**: [Melissa Jean Clark](http://melissajclark.ca)
 
 **Demo**: http://webstyles.ninja
 
 **Description:** Responsive HTML & CSS template with repeatable patterns for exploring design elements such as colours or typography. 
 
-**Credits**:
+## Update: April 2015
 
-1. Original CSS & HTML from Dave Gamache's [Skeleton](http://www.getskeleton.com/) framework.
-2. Paul Robert Lloyd's [Barebones](http://barebones.paulrobertlloyd.com/) template used to test HTML elements.
+I started this project nearly a year ago. I use it in some form on every client project to communicate my ideas and plans for a website. I originally used a CSS framework, and the code became bloated. I'm currently updating the project and cleaning it up. See the old version at http://webstyles.ninja, or the in progress version at http://melissajclark.github.io/webstyles/. 
+
 
 *****
 
