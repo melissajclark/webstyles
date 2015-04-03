@@ -12,5 +12,5 @@
 @mixin vertical-center-child {
   position: absolute;
   top: 50%;
-  transform: translateY(-50%);
+  translate:translateY(-50%);
 }

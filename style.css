@@ -1,7 +1,7 @@
 /*!
 Web Styles 2.0
 
-CSS from Starter-Theme - ensures ease of use for using with both
+CSS from Starter-Theme - ensures ease of use for using with both web-styles and my WordPress starter-theme
 */
 /**
 *
@@ -198,72 +198,63 @@ body {
 #main {
   clear: both; }
 
-.wrapper {
+.contentWrapper {
   width: 100%; }
 
-.container {
+.contentContainer {
   margin: 0 auto;
   max-width: 70%;
   padding: 2% 0 0 0; }
   @media (min-width: 1600px) {
-    .container {
+    .contentContainer {
       /* min-width: 1600px */
       max-width: 60%; } }
   @media (max-width: 1600px) {
-    .container {
+    .contentContainer {
       /* max-width: 1600px */
       max-width: 80%; } }
   @media (max-width: 1150px) {
-    .container {
+    .contentContainer {
       /* max-width: 1150px */
       max-width: 85%; } }
   @media (max-width: 800px) {
-    .container {
+    .contentContainer {
       /* max-width: 800px */
       max-width: 95%;
       font-size: 1.1rem;
       line-height: 1.56rem;
       word-wrap: break-word; } }
-  .container.containerWithAside #primary {
+  .contentContainer.contentContainerWithAside #primary {
     width: 75%;
     float: left; }
     @media (max-width: 1150px) {
-      .container.containerWithAside #primary {
+      .contentContainer.contentContainerWithAside #primary {
         width: 65%; } }
     @media (max-width: 800px) {
-      .container.containerWithAside #primary {
+      .contentContainer.contentContainerWithAside #primary {
         width: 95%; } }
-  .container.containerWithAside #secondary {
+  .contentContainer.contentContainerWithAside #secondary {
     width: 25%;
     float: left;
     padding: 0 0 0 5%; }
     @media (max-width: 1150px) {
-      .container.containerWithAside #secondary {
+      .contentContainer.contentContainerWithAside #secondary {
         width: 35%; } }
     @media (max-width: 800px) {
-      .container.containerWithAside #secondary {
+      .contentContainer.contentContainerWithAside #secondary {
         width: 95%;
         padding: 0;
         -webkit-column-count: 2;
            -moz-column-count: 2;
                 column-count: 2; }
-        .container.containerWithAside #secondary .widget {
+        .contentContainer.contentContainerWithAside #secondary .widget {
           width: 100%;
           display: inline-block; } }
     @media (max-width: 500px) {
-      .container.containerWithAside #secondary {
+      .contentContainer.contentContainerWithAside #secondary {
         -webkit-column-count: 1;
            -moz-column-count: 1;
                 column-count: 1; } }
-
-#content {
-  margin: 0;
-  width: 100%;
-  float: left; }
-
-#primary.full-width, #primary.full-width #content {
-  width: 100%;
-  float: none; }
 
 #colophon {
   clear: both;
@@ -841,21 +832,6 @@ article.comment {
   clear: both; }
 
 /* Handle sticky posts */
-/* Set to whatever width your actual thumbs are */
-.grid-item {
-  display: inline-block;
-  vertical-align: top;
-  width: 150px;
-  margin: 0 10px 10px 0; }
-  .grid-item:nth-of-type(4) {
-    margin-right: 0;
-    /* Removes the margin on every third item (end of the row) */ }
-  .grid-item .caption {
-    padding: 5px 0; }
-  .grid-item a:hover {
-    opacity: 0.5;
-    /* This gives the whole thing a fade on hover */ }
-
 /*-----  End of Blog  ------*/
 /*==============================
 =            Footer            =
@@ -866,3 +842,65 @@ article.comment {
 *
 **/
 /*-----  End of Footer  ------*/
+/*=================================
+=            WebStyles            =
+=================================*/
+/**
+*
+* WebStyles
+*
+**/
+/**
+*
+* Colour Palette Layout
+*
+**/
+.colourPalette {
+  -webkit-columns: 150px 6;
+     -moz-columns: 150px 6;
+          columns: 150px 6;
+  margin: 0 auto;
+  -webkit-column-gap: 1.5em;
+     -moz-column-gap: 1.5em;
+          column-gap: 1.5em; }
+  @media all and (max-width: 1400px) {
+    .colourPalette {
+      -webkit-columns: 200px 3;
+         -moz-columns: 200px 3;
+              columns: 200px 3;
+      -webkit-column-gap: 2em;
+         -moz-column-gap: 2em;
+              column-gap: 2em; } }
+  @media (max-width: 800px) {
+    .colourPalette {
+      -webkit-columns: 200px 3;
+         -moz-columns: 200px 3;
+              columns: 200px 3; } }
+  @media (max-width: 500px) {
+    .colourPalette {
+      -webkit-column-count: 75px 2;
+         -moz-column-count: 75px 2;
+              column-count: 75px 2;
+      -webkit-column-gap: 1em;
+         -moz-column-gap: 1em;
+              column-gap: 1em; } }
+
+.paletteSwatch {
+  background: rgba(128, 128, 128, 0.44);
+  border: 5px solid #fff;
+  height: auto;
+  padding: 5px;
+  margin: 0;
+  width: auto;
+  -webkit-column-break-inside: avoid;
+     page-break-inside: avoid;
+          break-inside: avoid; }
+  .paletteSwatch p {
+    display: block;
+    -webkit-margin-before: 0em;
+    -webkit-margin-after: 0em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    margin-bottom: 0; }
+
+/*-----  End of WebStyles  ------*/
