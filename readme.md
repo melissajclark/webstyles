@@ -9,8 +9,9 @@
 
 I started this project nearly a year ago. I use it in some form on every client project to communicate my ideas and plans for a website. I originally used a CSS framework, and the code became bloated. I'm currently updating the project and cleaning it up. See the old version at http://webstyles.ninja, or the in progress version at http://melissajclark.github.io/webstyles/. 
 
-
 *****
+
+## About Web Styles
 
 This simple HTML & CSS template is inspired by Samantha Warren's [Style Tiles](http://styletil.es/). Style Tiles open up the conversation about design without designing a a website in Photoshop. 
 
