@@ -27,12 +27,14 @@
 
 .paletteSwatch {
 	background:$placeholder;
-	border:5px solid $bg;
 	height:auto;
 	padding:5px;
 	margin:0;
 	width:auto;
 	break-inside:avoid;
+	
+	/* Border same as background to create space between items */
+	border:5px solid $bg;
 
 	p { 
 		font-weight:300;
