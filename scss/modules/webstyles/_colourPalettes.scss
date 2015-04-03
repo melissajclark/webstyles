@@ -5,6 +5,40 @@
 **/
 
 .colourPalette {
-	column-count:4;
+	columns:150px 6;
 	margin:0 auto;
+	column-gap:1.5em;
+
+	@media all and (max-width:1400px){ // 1300 px
+		columns:200px 3;
+		column-gap:2em;
+	}
+
+	@include breakpoint(little){ // 800 px
+		columns:200px 3;
+	}
+
+	@include breakpoint(tiny){ // 500 px
+		column-count:2;
+	}
+
+}
+
+.paletteSwatch {
+	background:$placeholder;
+	border-bottom:10px solid $bg;
+	height:auto;
+	padding:5px;
+	margin:0;
+	width:auto;
+	break-inside:avoid;
+
+	p { // attempt to sort out ghostly line below item
+		display: block;
+		-webkit-margin-before: 0em;
+		-webkit-margin-after: 0em;
+		-webkit-margin-start: 0px;
+		-webkit-margin-end: 0px;
+		margin-bottom:0;
+	}
 }
