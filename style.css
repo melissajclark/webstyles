@@ -896,6 +896,7 @@ article.comment {
      page-break-inside: avoid;
           break-inside: avoid; }
   .paletteSwatch p {
+    font-weight: 300;
     display: block;
     -webkit-margin-before: 0em;
     -webkit-margin-after: 0em;
@@ -903,4 +904,29 @@ article.comment {
     -webkit-margin-end: 0px;
     margin-bottom: 0; }
 
+/**
+*
+* Colour Palette Variables
+*
+**/
+/* Palette 1 */
+.palette1-colour1 {
+  background: #A02B3D; }
+
+.palette1-colour2 {
+  background: #B63432; }
+
+.palette1-colour3 {
+  background: #CF6062; }
+
+.palette1-colour4 {
+  background: #E8C078; }
+
+.palette1-colour5 {
+  background: #AECBDE; }
+
+.palette1-colour6 {
+  background: #8E9A98; }
+
+/* / Palette 1 */
 /*-----  End of WebStyles  ------*/
