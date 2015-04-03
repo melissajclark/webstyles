@@ -1,13 +1,13 @@
 ### IGNORE ALL OF THIS ###
 
 
-	###SASS###
+###SASS###
 
-	.sass-cache
+.sass-cache
 
 
-	### GULP STUFF ###
+### GULP STUFF ###
 
-	node_modules
-	package.json
-	gulpfile.js
+node_modules
+package.json
+gulpfile.js
