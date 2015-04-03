@@ -1,29 +1,13 @@
-###SublimeText###
-
-# workspace files are user-specific
-*.sublime-workspace
-
-# project files should be checked into the repository, unless a significant
-# proportion of contributors will probably not be using SublimeText
+### IGNORE ALL OF THIS ###
 
 
-webstyles.sublime-project
+	###SASS###
 
-###SASS###
-
-.sass-cache
+	.sass-cache
 
 
-### GULP STUFF ###
+	### GULP STUFF ###
 
-node_modules
-package.json
-gulpfile.js
-
-### Unneeded to check into repository ###
-
-assets/images/originals/*
-
-### Analytics ###
-
-includes/analytics.php
+	node_modules
+	package.json
+	gulpfile.js
