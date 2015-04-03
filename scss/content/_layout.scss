@@ -9,11 +9,11 @@ body {
 	clear: both;
 }
 
-.wrapper {
+.contentWrapper {
 	width:$width-outer;
 }
 
-.container { 
+.contentContainer { 
 	margin: 0 auto;
 	max-width: $mainContent;
 	padding:2% 0 0 0;
@@ -35,7 +35,10 @@ body {
 	      @include small-font-size;
 	    }
 
-	    &.containerWithAside { // styles widths of layouts with a sidebar
+
+
+	    &.contentContainerWithAside { // styles widths of layouts with a sidebar
+
 
     	    #primary {
     			width:$primary-width;
@@ -48,6 +51,7 @@ body {
     				width:$width;
     			}    			
     	    } // #primary
+
 
     	    #secondary {
     			width:$secondary-width;
@@ -73,8 +77,10 @@ body {
     			}
     	    } // #secondary
 
+
 	    } // containerWithAside
-}
+
+} // contentContainer
 
 #colophon {
 	clear: both;
