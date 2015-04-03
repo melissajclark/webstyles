@@ -210,19 +210,15 @@ body {
   padding: 2% 0 0 0; }
   @media (min-width: 1600px) {
     .contentContainer {
-      /* min-width: 1600px */
       max-width: 60%; } }
   @media (max-width: 1600px) {
     .contentContainer {
-      /* max-width: 1600px */
       max-width: 80%; } }
   @media (max-width: 1150px) {
     .contentContainer {
-      /* max-width: 1150px */
       max-width: 85%; } }
   @media (max-width: 800px) {
     .contentContainer {
-      /* max-width: 800px */
       max-width: 95%;
       font-size: 1.1rem;
       line-height: 1.56rem;
@@ -446,11 +442,6 @@ a {
 /*=================================
 =            WebStyles            =
 =================================*/
-/**
-*
-* WebStyles
-*
-**/
 /**
 *
 * Colour Palette Layout
