@@ -36,7 +36,7 @@
 
 	p { 
 		font-weight:300;
-		// attempt to sort out ghostly line below item
+		/* attempt to sort out ghostly line below item  (removes browser's default margin below paragraphs */
 		display: block;
 		-webkit-margin-before: 0em;
 		-webkit-margin-after: 0em;
