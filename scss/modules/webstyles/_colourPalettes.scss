@@ -34,7 +34,9 @@
 	width:auto;
 	break-inside:avoid;
 
-	p { // attempt to sort out ghostly line below item
+	p { 
+		font-weight:300;
+		// attempt to sort out ghostly line below item
 		display: block;
 		-webkit-margin-before: 0em;
 		-webkit-margin-after: 0em;
