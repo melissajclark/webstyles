@@ -19,14 +19,14 @@
 	}
 
 	@include breakpoint(tiny){ // 500 px
-		column-count:2;
+		column-count:75px 2;
 	}
 
 }
 
 .paletteSwatch {
 	background:$placeholder;
-	border-bottom:10px solid $bg;
+	border:5px solid $bg;
 	height:auto;
 	padding:5px;
 	margin:0;
