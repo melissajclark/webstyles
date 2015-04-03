@@ -20,6 +20,7 @@
 
 	@include breakpoint(tiny){ // 500 px
 		column-count:75px 2;
+		column-gap:1em;
 	}
 
 }
