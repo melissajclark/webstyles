@@ -1,3 +1,7 @@
+/*==============================
+=            Layout            =
+==============================*/
+
 body {
 	background: $bg;
 	margin: 0;
@@ -89,6 +93,7 @@ body {
 /* Sticky footer */
 @include sticky-footer(100px, '#page','#main','#colophon');
 
+/*-----  End of Layout  ------*/
 
 // testing sections
 
