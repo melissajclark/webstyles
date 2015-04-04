@@ -4,13 +4,13 @@
 // *
 // *
 
-.bodyStyles.bodyStyles1 {
+.bodyStyles1 {
 
 // Variables
 // -----------------------------------------------
 
-$bodyStyles1-body-font: "Helvetica";
-$bodyStyles1-heading-font: "Times";
+$bodyStyles1-body-font: "Arial", sans-serif;
+$bodyStyles1-heading-font: "Times", serif;
 
 
 // -------- / variables
@@ -63,10 +63,7 @@ font:{
 *
 **/
 
-
-
-
-	body, input, textarea {
+	body, input, textarea, p, li{
 		@include bodyStyles1-normal-font-size;
 		@include bodyStyles1-body-font;
 		color: $text;
@@ -79,7 +76,7 @@ font:{
 		clear: both;
 	}
 	h1 {
-		font-size:10rem;
+		font-size:2.7rem;
 		line-height:3rem;
 	}
 
@@ -90,7 +87,7 @@ font:{
 	}
 
 	h3 {
-		font-size: 5rem;
+		font-size: 1.6rem;
 		line-height: 2.5rem;
 	}
 	h4 {
