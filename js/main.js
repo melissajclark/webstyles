@@ -9,7 +9,8 @@ $(document).ready(function(){
 
 	// reveal the Hex code on click
 	$('a.paletteSwatch').each(function( index ){
-		$(this).on("click", function(){
+		$(this).on("click", function(e){
+			e.preventDefault();
 			$(this).find('span.swatchColour').show();
 		});
 	});
