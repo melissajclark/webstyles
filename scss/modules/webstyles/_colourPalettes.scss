@@ -4,31 +4,27 @@
 *
 **/
 
+
+/* Container for Swatches */
+
 .colourPalette {
-	columns:150px 6;
+	columns:140px 6;
 	margin:0 auto;
 	column-gap:1.5em;
 
-	@media all and (max-width:1400px){ // 1300 px
-		columns:200px 3;
-		column-gap:2em;
-	}
-
-	@include breakpoint(little){ // 800 px
-		columns:200px 3;
-	}
-
-	@include breakpoint(tiny){ // 500 px
-		column-count:75px 2;
+	@include breakpoint(large){ // 1300 px
+		columns:75px 4;
 		column-gap:1em;
 	}
 
 }
+/* Individual Swatches */
 
 .paletteSwatch {
 	background:$placeholder;
 	height:auto;
 	padding:5px;
+	height:140px;
 	margin:0;
 	width:auto;
 	break-inside:avoid;
@@ -36,14 +32,18 @@
 	/* Border same as background to create space between items */
 	border:5px solid $bg;
 
-	p { 
-		font-weight:300;
-		/* attempt to sort out ghostly line below item  (removes browser's default margin below paragraphs */
-		display: block;
-		-webkit-margin-before: 0em;
-		-webkit-margin-after: 0em;
-		-webkit-margin-start: 0px;
-		-webkit-margin-end: 0px;
-		margin-bottom:0;
+	@include breakpoint(large){ // 1300 px
+		height:75px;
 	}
+}
+
+.paletteSwatch p {
+	font-weight:300;
+	/* attempt to sort out ghostly line below item  (removes browser's default margin below paragraphs */
+	display: block;
+	-webkit-margin-before: 0em;
+	-webkit-margin-after: 0em;
+	-webkit-margin-start: 0px;
+	-webkit-margin-end: 0px;
+	margin-bottom:0;
 }
