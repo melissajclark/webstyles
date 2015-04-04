@@ -589,13 +589,39 @@ a {
 =================================*/
 /**
 *
+* Code Blocks
+*
+**/
+.codeExample {
+  line-height: 1.1;
+  font-size: 15px;
+  float: left;
+  width: 40%; }
+  @media (max-width: 1150px) {
+    .codeExample {
+      width: 100%;
+      max-width: 800px; } }
+
+.hidden {
+  display: none; }
+
+/**
+*
 * Colour Palette Layout
 *
 **/
 /* Container for Swatches */
 .colourPalette {
   width: 100%;
+  min-height: 160px;
+  /* Class added when code block is shown */
   /* Individual Swatches */ }
+  .colourPalette.colourPaletteCodeVisible {
+    float: left;
+    width: 60%; }
+    @media (max-width: 1150px) {
+      .colourPalette.colourPaletteCodeVisible {
+        width: 100%; } }
   .colourPalette a.paletteSwatch {
     width: 160px;
     height: 160px;
@@ -643,10 +669,7 @@ a {
   background-color: #8E9A98; }
 
 /* / Palette 1 */
-.bodyStyles {
-  clear: both; }
-
-.bodyStyles.bodyStyles1 {
+.bodyStyles1 {
   /**
 *
 * BodyStyles1: Typography
@@ -656,115 +679,115 @@ a {
   /* Text elements */
   /* Links */
   /* Assistive text */ }
-  .bodyStyles.bodyStyles1 body, .bodyStyles.bodyStyles1 input, .bodyStyles.bodyStyles1 textarea {
+  .bodyStyles1 body, .bodyStyles1 input, .bodyStyles1 textarea, .bodyStyles1 p, .bodyStyles1 li {
     font-size: 1.1rem;
     line-height: 1.8rem;
     word-wrap: break-word;
-    font-family: "Helvetica";
+    font-family: "Arial", sans-serif;
     font-style: normal;
     font-weight: 400;
     color: #222;
     word-wrap: break-word; }
-  .bodyStyles.bodyStyles1 h1, .bodyStyles.bodyStyles1 h2, .bodyStyles.bodyStyles1 h3, .bodyStyles.bodyStyles1 h4, .bodyStyles.bodyStyles1 h5, .bodyStyles.bodyStyles1 h6 {
-    font-family: "Times";
+  .bodyStyles1 h1, .bodyStyles1 h2, .bodyStyles1 h3, .bodyStyles1 h4, .bodyStyles1 h5, .bodyStyles1 h6 {
+    font-family: "Times", serif;
     font-style: normal;
     font-weight: 400;
     clear: both; }
-  .bodyStyles.bodyStyles1 h1 {
-    font-size: 10rem;
+  .bodyStyles1 h1 {
+    font-size: 2.7rem;
     line-height: 3rem; }
-  .bodyStyles.bodyStyles1 h2 {
+  .bodyStyles1 h2 {
     font-size: 1.9rem;
     line-height: 2.7rem; }
-  .bodyStyles.bodyStyles1 h3 {
-    font-size: 5rem;
+  .bodyStyles1 h3 {
+    font-size: 1.6rem;
     line-height: 2.5rem; }
-  .bodyStyles.bodyStyles1 h4 {
+  .bodyStyles1 h4 {
     font-size: 1.5rem;
     line-height: 2rem; }
-  .bodyStyles.bodyStyles1 h5 {
+  .bodyStyles1 h5 {
     font-size: 1.3rem;
     line-height: 1.8rem; }
-  .bodyStyles.bodyStyles1 h6 {
+  .bodyStyles1 h6 {
     font-size: 1.2rem;
     line-height: 1.9rem; }
-  .bodyStyles.bodyStyles1 hr {
+  .bodyStyles1 hr {
     background-color: #ccc;
     border: 0;
     height: 1px;
     margin-bottom: 1.5em; }
-  .bodyStyles.bodyStyles1 p {
+  .bodyStyles1 p {
     margin-bottom: 1.5em; }
-  .bodyStyles.bodyStyles1 ul, .bodyStyles.bodyStyles1 ol {
+  .bodyStyles1 ul, .bodyStyles1 ol {
     margin: 0 0 1.5em 2.5em; }
-  .bodyStyles.bodyStyles1 ul {
+  .bodyStyles1 ul {
     list-style: square; }
-  .bodyStyles.bodyStyles1 ol {
+  .bodyStyles1 ol {
     list-style-type: decimal; }
-    .bodyStyles.bodyStyles1 ol ol {
+    .bodyStyles1 ol ol {
       list-style: upper-alpha; }
-      .bodyStyles.bodyStyles1 ol ol ol {
+      .bodyStyles1 ol ol ol {
         list-style: lower-roman; }
-      .bodyStyles.bodyStyles1 ol ol ol {
+      .bodyStyles1 ol ol ol {
         list-style: lower-alpha; }
-  .bodyStyles.bodyStyles1 ul ul, .bodyStyles.bodyStyles1 ol ol, .bodyStyles.bodyStyles1 ul ol, .bodyStyles.bodyStyles1 ol ul {
+  .bodyStyles1 ul ul, .bodyStyles1 ol ol, .bodyStyles1 ul ol, .bodyStyles1 ol ul {
     margin-bottom: 0; }
-  .bodyStyles.bodyStyles1 dl {
+  .bodyStyles1 dl {
     margin: 0 1.5em; }
-  .bodyStyles.bodyStyles1 dd {
+  .bodyStyles1 dd {
     margin-bottom: 1.5em; }
-  .bodyStyles.bodyStyles1 em, .bodyStyles.bodyStyles1 i {
+  .bodyStyles1 em, .bodyStyles1 i {
     font-style: italic; }
-  .bodyStyles.bodyStyles1 blockquote {
+  .bodyStyles1 blockquote {
     font-style: italic;
     font-weight: normal;
     margin: 0 3em; }
-  .bodyStyles.bodyStyles1 blockquote em, .bodyStyles.bodyStyles1 blockquote i, .bodyStyles.bodyStyles1 blockquote cite {
+  .bodyStyles1 blockquote em, .bodyStyles1 blockquote i, .bodyStyles1 blockquote cite {
     font-style: normal; }
-  .bodyStyles.bodyStyles1 cite {
+  .bodyStyles1 cite {
     color: #666;
     letter-spacing: 0.05em;
     padding-left: 60px; }
-  .bodyStyles.bodyStyles1 pre {
+  .bodyStyles1 pre {
     background: #f4f4f4;
     line-height: 1.5;
     margin-bottom: 1.5em;
     overflow: auto;
     padding: 0.75em 1.5em; }
-  .bodyStyles.bodyStyles1 code, .bodyStyles.bodyStyles1 kbd {
+  .bodyStyles1 code, .bodyStyles1 kbd {
     font-family: Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace; }
-  .bodyStyles.bodyStyles1 abbr, .bodyStyles.bodyStyles1 acronym, .bodyStyles.bodyStyles1 dfn {
+  .bodyStyles1 abbr, .bodyStyles1 acronym, .bodyStyles1 dfn {
     border-bottom: 1px solid #444;
     cursor: help; }
-  .bodyStyles.bodyStyles1 address {
+  .bodyStyles1 address {
     display: block;
     margin: 0 0 1.5em; }
-  .bodyStyles.bodyStyles1 ins {
+  .bodyStyles1 ins {
     background: #fff9c0;
     text-decoration: none; }
-  .bodyStyles.bodyStyles1 sup, .bodyStyles.bodyStyles1 sub {
+  .bodyStyles1 sup, .bodyStyles1 sub {
     font-size: 10px;
     height: 0;
     line-height: 1;
     position: relative;
     vertical-align: baseline; }
-  .bodyStyles.bodyStyles1 sup {
+  .bodyStyles1 sup {
     bottom: 1ex; }
-  .bodyStyles.bodyStyles1 sub {
+  .bodyStyles1 sub {
     top: .5ex; }
-  .bodyStyles.bodyStyles1 a {
+  .bodyStyles1 a {
     color: blue;
     text-decoration: none;
     word-wrap: break-word; }
-    .bodyStyles.bodyStyles1 a:focus, .bodyStyles.bodyStyles1 a:active, .bodyStyles.bodyStyles1 a:hover {
+    .bodyStyles1 a:focus, .bodyStyles1 a:active, .bodyStyles1 a:hover {
       color: red;
       word-wrap: break-word; }
-  .bodyStyles.bodyStyles1 .assistive-text {
+  .bodyStyles1 .assistive-text {
     position: absolute !important;
     clip: rect(1px 1px 1px 1px);
     /* IE6, IE7 */
     clip: rect(1px, 1px, 1px, 1px); }
-  .bodyStyles.bodyStyles1 #access a.assistive-text:active, .bodyStyles.bodyStyles1 #access a.assistive-text:focus {
+  .bodyStyles1 #access a.assistive-text:active, .bodyStyles1 #access a.assistive-text:focus {
     clip: auto !important;
     font-size: 12px;
     position: absolute;
@@ -773,11 +796,4 @@ a {
     left: 7.6%; }
 
 /* bodyStyles1 */
-.codeExample {
-  line-height: 1;
-  font-size: 16px;
-  max-width: 800px; }
-  .codeExample pre {
-    clear: both; }
-
 /*-----  End of WebStyles  ------*/
