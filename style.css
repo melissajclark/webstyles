@@ -452,22 +452,26 @@ a {
   width: 100%;
   margin: 0 auto;
   /* Individual Swatches */ }
-  .colourPalette .paletteSwatch {
+  .colourPalette a.paletteSwatch {
     width: 160px;
     height: 160px;
     float: left;
     position: relative;
     text-align: center; }
-    .colourPalette .paletteSwatch p.swatchColour {
+    .colourPalette a.paletteSwatch:focus {
+      outline: 3px solid;
+      color: rgba(34, 34, 34, 0.7);
+      z-index: 10; }
+    .colourPalette a.paletteSwatch span.swatchColour {
       background: rgba(255, 255, 255, 0.8);
       padding: 3px;
       font-weight: 300;
       text-transform: uppercase;
       margin: 0;
+      color: #222;
       position: absolute;
       top: 40%;
-      left: 30%;
-      translate: translateY(-50%); }
+      left: 30%; }
 
 /**
 *
