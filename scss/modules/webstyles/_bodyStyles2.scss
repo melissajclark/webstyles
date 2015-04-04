@@ -9,7 +9,7 @@
 // Variables
 // -----------------------------------------------
 
-$bodyStyles2-body-font: "Helvetica Neue", sans-serif;
+$bodyStyles2-body-font: "Source Sans Pro", sans-serif;
 $bodyStyles2-heading-font: "Playfair Display", serif;
 
 
@@ -23,10 +23,10 @@ $bodyStyles2-heading-font: "Playfair Display", serif;
 @mixin bodyStyles2-heading-font {
 font:{
   family: $bodyStyles2-heading-font;
-  style: italic;
+  style: normal;
   weight: 400;
   }
-  text-transform:capitalize;
+  text-transform:none;
 }
 
 @mixin bodyStyles2-body-font {
