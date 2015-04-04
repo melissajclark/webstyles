@@ -40,9 +40,11 @@ $(document).ready(function(){
 
 			if (codeExampleHidden == true) {
 				$(".codeExample").show().removeClass("hidden");
+				$(".colourPalette").addClass("colourPaletteCodeVisible");	
 			} else if (codeExampleHidden == false){
 				$(".codeExample").hide().addClass("hidden");
-			};		
+				$(".colourPalette").removeClass("colourPaletteCodeVisible");	
+			};	
 		}); // end function on click of code button
 
 	/* / end functions on code reveal button  */
