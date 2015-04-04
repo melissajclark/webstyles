@@ -16,10 +16,10 @@ $(document).ready(function(){
 		});
 
 		// reveal the Hex code on click
-		$('a.paletteSwatch').each(function( index ){
+		$("a.paletteSwatch").each(function( index ){
 			$(this).on("click", function(e){
 				e.preventDefault();
-				$(this).find('span.swatchColour').show();
+				$(this).find("span.swatchColour").show();
 			});
 		});
 
@@ -36,12 +36,12 @@ $(document).ready(function(){
 		$("button.revealCode").on("click", function(e){
 			e.preventDefault();
 
-			var codeExampleHidden = $(".codeExample").hasClass('hidden');
+			var codeExampleHidden = $(".codeExample").hasClass("hidden");
 
 			if (codeExampleHidden == true) {
-				$('.codeExample').show().removeClass('hidden');
+				$(".codeExample").show().removeClass("hidden");
 			} else if (codeExampleHidden == false){
-				$('.codeExample').hide().addClass('hidden');
+				$(".codeExample").hide().addClass("hidden");
 			};		
 		}); // end function on click of code button
 
