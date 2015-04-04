@@ -38,47 +38,45 @@ body {
 	      @include small-font-size;
 	    }
 
+	    // &.contentContainerWithAside { // styles widths of layouts with a sidebar
 
 
-	    &.contentContainerWithAside { // styles widths of layouts with a sidebar
+    	//     #primary {
+    	// 		width:$primary-width;
+    	// 		float:left;
+
+    	// 		@include breakpoint(medium){
+    	// 			width:$primary-width - 10%;
+    	// 		}
+    	// 		@include breakpoint(little){
+    	// 			width:$width;
+    	// 		}    			
+    	//     } // #primary
 
 
-    	    #primary {
-    			width:$primary-width;
-    			float:left;
+    	//     #secondary {
+    	// 		width:$secondary-width;
+    	// 		float:left;
+    	// 		padding:0 0 0 5%;
 
-    			@include breakpoint(medium){
-    				width:$primary-width - 10%;
-    			}
-    			@include breakpoint(little){
-    				width:$width;
-    			}    			
-    	    } // #primary
+    	// 		@include breakpoint(medium){
+    	// 			width:$secondary-width + 10%;
+    	// 		}
+    	// 		@include breakpoint(little){
+    	// 			width:$width;
+    	// 			padding: 0;
+    	// 			// display sidebar content in columns at little breakpoint
+    	// 			column-count:2;
 
-
-    	    #secondary {
-    			width:$secondary-width;
-    			float:left;
-    			padding:0 0 0 5%;
-
-    			@include breakpoint(medium){
-    				width:$secondary-width + 10%;
-    			}
-    			@include breakpoint(little){
-    				width:$width;
-    				padding: 0;
-    				// display sidebar content in columns at little breakpoint
-    				column-count:2;
-
-    				.widget {
-    					width:100%;
-    					display:inline-block;
-    				}
-    			}
-    			@include breakpoint(tiny){
-    				column-count:1;
-    			}
-    	    } // #secondary
+    	// 			.widget {
+    	// 				width:100%;
+    	// 				display:inline-block;
+    	// 			}
+    	// 		}
+    	// 		@include breakpoint(tiny){
+    	// 			column-count:1;
+    	// 		}
+    	//     } // #secondary
 
 
 	    } // containerWithAside
