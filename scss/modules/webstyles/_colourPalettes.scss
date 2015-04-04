@@ -6,8 +6,7 @@
 
 /* Container for Swatches */
 .colourPalette {
-	width:100%;
-	margin:0 auto;
+	width:100%;	
 
 	/* Individual Swatches */
 	a.paletteSwatch {
@@ -16,13 +15,14 @@
 		float:left;
 		position:relative;
 		text-align:center;
-		// margin:6px;
-	&:focus {
-		outline:3px solid;
-		color:$placeholder;
-		z-index:10;
-	}
 
+		&:focus {
+			outline:3px solid;
+			color:$placeholder;
+			z-index:10;
+		} // :focus
+
+		/* swatchColour - hexcode displayed on swatch */
 		span.swatchColour {
 			background:rgba($white, .8);
 			padding:3px;
@@ -35,7 +35,8 @@
 			position: absolute;
 			top: 40%;
 			left:30%;
+		} // span.swatchColour
 
-		}
 	} // .paletteSwatch
+
 } // .colourPalette
