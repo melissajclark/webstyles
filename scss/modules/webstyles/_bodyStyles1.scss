@@ -9,8 +9,8 @@
 // Variables
 // -----------------------------------------------
 
-$bodyStyles1-body-font: "Arial", sans-serif;
-$bodyStyles1-heading-font: "Times", serif;
+$bodyStyles1-body-font: "Helvetica Neue", sans-serif;
+$bodyStyles1-heading-font: "Playfair Display", serif;
 
 
 // -------- / variables
@@ -23,16 +23,17 @@ $bodyStyles1-heading-font: "Times", serif;
 @mixin bodyStyles1-heading-font {
 font:{
   family: $bodyStyles1-heading-font;
-  style: normal;
+  style: italic;
   weight: 400;
   }
+  text-transform:capitalize;
 }
 
 @mixin bodyStyles1-body-font {
 font:{
   family: $bodyStyles1-body-font;
   style: normal;
-  weight: 400;
+  weight: 300;
   }
 }
 
