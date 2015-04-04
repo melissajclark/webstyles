@@ -447,56 +447,26 @@ a {
 * Colour Palette Layout
 *
 **/
+/* Container for Swatches */
 .colourPalette {
-  -webkit-columns: 150px 6;
-     -moz-columns: 150px 6;
-          columns: 150px 6;
+  width: 100%;
   margin: 0 auto;
-  -webkit-column-gap: 1.5em;
-     -moz-column-gap: 1.5em;
-          column-gap: 1.5em; }
-  @media all and (max-width: 1400px) {
-    .colourPalette {
-      -webkit-columns: 200px 3;
-         -moz-columns: 200px 3;
-              columns: 200px 3;
-      -webkit-column-gap: 2em;
-         -moz-column-gap: 2em;
-              column-gap: 2em; } }
-  @media (max-width: 800px) {
-    .colourPalette {
-      -webkit-columns: 200px 3;
-         -moz-columns: 200px 3;
-              columns: 200px 3; } }
-  @media (max-width: 500px) {
-    .colourPalette {
-      -webkit-column-count: 75px 2;
-         -moz-column-count: 75px 2;
-              column-count: 75px 2;
-      -webkit-column-gap: 1em;
-         -moz-column-gap: 1em;
-              column-gap: 1em; } }
-
-.paletteSwatch {
-  background: rgba(128, 128, 128, 0.44);
-  height: auto;
-  padding: 5px;
-  margin: 0;
-  width: auto;
-  -webkit-column-break-inside: avoid;
-     page-break-inside: avoid;
-          break-inside: avoid;
-  /* Border same as background to create space between items */
-  border: 5px solid #fff; }
-  .paletteSwatch p {
-    font-weight: 300;
-    /* attempt to sort out ghostly line below item  (removes browser's default margin below paragraphs */
-    display: block;
-    -webkit-margin-before: 0em;
-    -webkit-margin-after: 0em;
-    -webkit-margin-start: 0px;
-    -webkit-margin-end: 0px;
-    margin-bottom: 0; }
+  /* Individual Swatches */ }
+  .colourPalette .paletteSwatch {
+    width: 160px;
+    height: 160px;
+    float: left;
+    position: relative;
+    text-align: center; }
+    .colourPalette .paletteSwatch p.swatchColour {
+      background: rgba(255, 255, 255, 0.8);
+      padding: 3px;
+      font-weight: 300;
+      text-transform: uppercase;
+      position: absolute;
+      top: 30%;
+      left: 35%;
+      translate: translateY(-50%); }
 
 /**
 *
@@ -505,22 +475,22 @@ a {
 **/
 /* Palette 1 */
 .palette1-colour1 {
-  background: #A02B3D; }
+  background-color: #A02B3D; }
 
 .palette1-colour2 {
-  background: #B63432; }
+  background-color: #B63432; }
 
 .palette1-colour3 {
-  background: #CF6062; }
+  background-color: #CF6062; }
 
 .palette1-colour4 {
-  background: #E8C078; }
+  background-color: #E8C078; }
 
 .palette1-colour5 {
-  background: #AECBDE; }
+  background-color: #AECBDE; }
 
 .palette1-colour6 {
-  background: #8E9A98; }
+  background-color: #8E9A98; }
 
 /* / Palette 1 */
 /*-----  End of WebStyles  ------*/
