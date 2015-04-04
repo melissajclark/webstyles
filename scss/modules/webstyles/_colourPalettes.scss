@@ -16,10 +16,11 @@
 		float:left;
 		position:relative;
 		text-align:center;
-		margin:6px;
+		// margin:6px;
 	&:focus {
 		outline:3px solid;
 		color:$placeholder;
+		z-index:10;
 	}
 
 		span.swatchColour {
@@ -34,7 +35,6 @@
 			position: absolute;
 			top: 40%;
 			left:30%;
-			translate:translateY(-50%);
 
 		}
 	} // .paletteSwatch
