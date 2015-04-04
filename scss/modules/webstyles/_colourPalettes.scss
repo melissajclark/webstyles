@@ -6,14 +6,19 @@
 
 /* Container for Swatches */
 .colourPalette {
-	float:left;
 	width:100%;
-	height:300px;
+
+	/* Class added when code block is shown */
 
 	&.colourPaletteCodeVisible {
+		float:left;
 		width:60%;
-		height:400px;
-	}
+
+		@include breakpoint(medium){
+			clear:both;
+			width:100%;
+		}
+	} // .colourPaletteCodeVisible
 
 	/* Individual Swatches */
 	a.paletteSwatch {
