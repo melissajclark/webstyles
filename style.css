@@ -433,17 +433,18 @@ body, input, textarea {
   font-size: 1.1rem;
   line-height: 1.8rem;
   word-wrap: break-word;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Source Code Pro', monospace;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 300;
   color: #222;
   word-wrap: break-word; }
 
 /* Headings */
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Source Code Pro', monospace;
   font-style: normal;
   font-weight: 400;
+  text-transform: uppercase;
   clear: both; }
 
 h1 {
@@ -669,6 +670,18 @@ a {
   background-color: #8E9A98; }
 
 /* / Palette 1 */
+.bodyStylesContainer {
+  clear: both; }
+
+.bodyStylesContent {
+  width: 45%;
+  float: left;
+  margin: 0 4% 0 0; }
+  @media (max-width: 500px) {
+    .bodyStylesContent {
+      width: 100%;
+      margin: 0; } }
+
 .bodyStyles1 {
   /**
 *
@@ -683,15 +696,16 @@ a {
     font-size: 1.1rem;
     line-height: 1.8rem;
     word-wrap: break-word;
-    font-family: "Arial", sans-serif;
+    font-family: "Helvetica Neue", sans-serif;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 300;
     color: #222;
     word-wrap: break-word; }
   .bodyStyles1 h1, .bodyStyles1 h2, .bodyStyles1 h3, .bodyStyles1 h4, .bodyStyles1 h5, .bodyStyles1 h6 {
-    font-family: "Times", serif;
-    font-style: normal;
+    font-family: "Playfair Display", serif;
+    font-style: italic;
     font-weight: 400;
+    text-transform: capitalize;
     clear: both; }
   .bodyStyles1 h1 {
     font-size: 2.7rem;
@@ -796,4 +810,132 @@ a {
     left: 7.6%; }
 
 /* bodyStyles1 */
+.bodyStyles2 {
+  /**
+*
+* BodyStyles2: Typography
+*
+**/
+  /* Headings */
+  /* Text elements */
+  /* Links */
+  /* Assistive text */ }
+  .bodyStyles2 body, .bodyStyles2 input, .bodyStyles2 textarea, .bodyStyles2 p, .bodyStyles2 li {
+    font-size: 1.1rem;
+    line-height: 1.8rem;
+    word-wrap: break-word;
+    font-family: "Source Sans Pro", sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    color: #222;
+    word-wrap: break-word; }
+  .bodyStyles2 h1, .bodyStyles2 h2, .bodyStyles2 h3, .bodyStyles2 h4, .bodyStyles2 h5, .bodyStyles2 h6 {
+    font-family: "Playfair Display", serif;
+    font-style: normal;
+    font-weight: 400;
+    text-transform: none;
+    clear: both; }
+  .bodyStyles2 h1 {
+    font-size: 2.7rem;
+    line-height: 3rem; }
+  .bodyStyles2 h2 {
+    font-size: 1.9rem;
+    line-height: 2.7rem; }
+  .bodyStyles2 h3 {
+    font-size: 1.6rem;
+    line-height: 2.5rem; }
+  .bodyStyles2 h4 {
+    font-size: 1.5rem;
+    line-height: 2rem; }
+  .bodyStyles2 h5 {
+    font-size: 1.3rem;
+    line-height: 1.8rem; }
+  .bodyStyles2 h6 {
+    font-size: 1.2rem;
+    line-height: 1.9rem; }
+  .bodyStyles2 hr {
+    background-color: #ccc;
+    border: 0;
+    height: 1px;
+    margin-bottom: 1.5em; }
+  .bodyStyles2 p {
+    margin-bottom: 1.5em; }
+  .bodyStyles2 ul, .bodyStyles2 ol {
+    margin: 0 0 1.5em 2.5em; }
+  .bodyStyles2 ul {
+    list-style: square; }
+  .bodyStyles2 ol {
+    list-style-type: decimal; }
+    .bodyStyles2 ol ol {
+      list-style: upper-alpha; }
+      .bodyStyles2 ol ol ol {
+        list-style: lower-roman; }
+      .bodyStyles2 ol ol ol {
+        list-style: lower-alpha; }
+  .bodyStyles2 ul ul, .bodyStyles2 ol ol, .bodyStyles2 ul ol, .bodyStyles2 ol ul {
+    margin-bottom: 0; }
+  .bodyStyles2 dl {
+    margin: 0 1.5em; }
+  .bodyStyles2 dd {
+    margin-bottom: 1.5em; }
+  .bodyStyles2 em, .bodyStyles2 i {
+    font-style: italic; }
+  .bodyStyles2 blockquote {
+    font-style: italic;
+    font-weight: normal;
+    margin: 0 3em; }
+  .bodyStyles2 blockquote em, .bodyStyles2 blockquote i, .bodyStyles2 blockquote cite {
+    font-style: normal; }
+  .bodyStyles2 cite {
+    color: #666;
+    letter-spacing: 0.05em;
+    padding-left: 60px; }
+  .bodyStyles2 pre {
+    background: #f4f4f4;
+    line-height: 1.5;
+    margin-bottom: 1.5em;
+    overflow: auto;
+    padding: 0.75em 1.5em; }
+  .bodyStyles2 code, .bodyStyles2 kbd {
+    font-family: Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace; }
+  .bodyStyles2 abbr, .bodyStyles2 acronym, .bodyStyles2 dfn {
+    border-bottom: 1px solid #444;
+    cursor: help; }
+  .bodyStyles2 address {
+    display: block;
+    margin: 0 0 1.5em; }
+  .bodyStyles2 ins {
+    background: #fff9c0;
+    text-decoration: none; }
+  .bodyStyles2 sup, .bodyStyles2 sub {
+    font-size: 10px;
+    height: 0;
+    line-height: 1;
+    position: relative;
+    vertical-align: baseline; }
+  .bodyStyles2 sup {
+    bottom: 1ex; }
+  .bodyStyles2 sub {
+    top: .5ex; }
+  .bodyStyles2 a {
+    color: blue;
+    text-decoration: none;
+    word-wrap: break-word; }
+    .bodyStyles2 a:focus, .bodyStyles2 a:active, .bodyStyles2 a:hover {
+      color: red;
+      word-wrap: break-word; }
+  .bodyStyles2 .assistive-text {
+    position: absolute !important;
+    clip: rect(1px 1px 1px 1px);
+    /* IE6, IE7 */
+    clip: rect(1px, 1px, 1px, 1px); }
+  .bodyStyles2 #access a.assistive-text:active, .bodyStyles2 #access a.assistive-text:focus {
+    clip: auto !important;
+    font-size: 12px;
+    position: absolute;
+    text-decoration: underline;
+    top: 0;
+    left: 7.6%; }
+
+/* bodyStyles2 */
 /*-----  End of WebStyles  ------*/
