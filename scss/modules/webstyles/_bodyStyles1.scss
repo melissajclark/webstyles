@@ -4,6 +4,8 @@
 // *
 // *
 
+.bodyStyles .bodyStyles1 {
+
 // Variables
 // -----------------------------------------------
 
@@ -62,7 +64,7 @@ font:{
 **/
 
 
-.bodyStyles1 {
+
 
 	body, input, textarea {
 		@include bodyStyles1-normal-font-size;
