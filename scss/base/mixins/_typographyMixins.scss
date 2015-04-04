@@ -11,14 +11,16 @@ font:{
   style: normal;
   weight: 400;
   }
+  text-transform:uppercase;
 }
 
 @mixin body-font {
 font:{
   family: $body-font;
   style: normal;
-  weight: 400;
+  weight: 300;
   }
+
 }
 
 @mixin normal-font-size {
