@@ -4,7 +4,6 @@
 *
 **/
 
-
 /* Container for Swatches */
 .colourPalette {
 	width:100%;
@@ -15,11 +14,21 @@
 		width:160px;
 		height:160px;
 		float:left;
-		padding:5px;
+		position:relative;
+		text-align:center;
 
-		p {
+		p.swatchColour {
+			background:rgba($white, .8);
+			padding:3px;
 			font-weight:300;
-			text-align:center;
+			text-transform:uppercase;
+
+			// align center - ish
+			position: absolute;
+			top: 30%;
+			left:35%;
+			translate:translateY(-50%);
+
 		}
 	} // .paletteSwatch
 } // .colourPalette
