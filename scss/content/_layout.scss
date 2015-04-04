@@ -20,7 +20,6 @@ body {
 .contentContainer { 
 	margin: 0 auto;
 	max-width: $mainContent;
-	padding:2% 0 0 0;
 
 	    @include breakpoint(giant) { // min-width: 1600px */
 	      max-width: $mainContent - 10%; // 70%
