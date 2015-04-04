@@ -2,7 +2,8 @@
 $(document).ready(function(){
 
 	$(".paletteSwatch").each(function( index ){
-		console.log(index + ": " + $(this).css('background-color') );
+		var color = (index + ": " + $(this).css('background-color') );
+		$(this).html("<span class='backgrondColour'>" + color);
 	});
 
 }); // doc ready
