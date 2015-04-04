@@ -15,4 +15,16 @@ $(document).ready(function(){
 		});
 	});
 
+	$("button.revealCode").on("click", function(e){
+		e.preventDefault();
+
+		var codeExampleHidden = $(".codeExample").hasClass('hidden');
+
+		if (codeExampleHidden == true) {
+			$('.codeExample').show().removeClass('hidden');
+		} else if (codeExampleHidden == false){
+			$('.codeExample').hide().addClass('hidden');
+		};		
+	}); // end function on click of code button
+
 }); // doc ready
