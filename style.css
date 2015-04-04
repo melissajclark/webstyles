@@ -463,9 +463,10 @@ a {
       padding: 3px;
       font-weight: 300;
       text-transform: uppercase;
+      margin: 0;
       position: absolute;
-      top: 30%;
-      left: 35%;
+      top: 40%;
+      left: 30%;
       translate: translateY(-50%); }
 
 /**
