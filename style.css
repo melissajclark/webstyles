@@ -453,11 +453,11 @@ h1 {
 
 h2 {
   font-size: 1.9rem;
-  line-height: 2.7rem; }
+  line-height: 2.5rem; }
 
 h3 {
   font-size: 1.7rem;
-  line-height: 2.5rem; }
+  line-height: 2.1rem; }
 
 h4 {
   font-size: 1.5rem;
@@ -674,16 +674,22 @@ a {
 
 /* / Palette 1 */
 .bodyStylesContainer {
-  clear: both; }
+  clear: both;
+  margin: 2% 0 0 0; }
 
 .bodyStylesContent {
-  width: 45%;
+  width: 44%;
   float: left;
-  margin: 0 4% 0 0; }
+  padding: 0 3% 0 0;
+  border-right: 1px solid #444; }
+  .bodyStylesContent:last-of-type {
+    border-right: none;
+    padding: 0 0 0 3%; }
   @media (max-width: 500px) {
     .bodyStylesContent {
       width: 100%;
-      margin: 0; } }
+      padding: 0;
+      border-right: none; } }
 
 .bodyStyles1 {
   /**
@@ -711,14 +717,14 @@ a {
     text-transform: capitalize;
     clear: both; }
   .bodyStyles1 h1 {
-    font-size: 2.7rem;
+    font-size: 2.2rem;
     line-height: 3rem; }
   .bodyStyles1 h2 {
     font-size: 1.9rem;
-    line-height: 2.7rem; }
-  .bodyStyles1 h3 {
-    font-size: 1.6rem;
     line-height: 2.5rem; }
+  .bodyStyles1 h3 {
+    font-size: 1.7rem;
+    line-height: 2.1rem; }
   .bodyStyles1 h4 {
     font-size: 1.5rem;
     line-height: 2rem; }
@@ -839,14 +845,14 @@ a {
     text-transform: none;
     clear: both; }
   .bodyStyles2 h1 {
-    font-size: 2.7rem;
+    font-size: 2.2rem;
     line-height: 3rem; }
   .bodyStyles2 h2 {
     font-size: 1.9rem;
-    line-height: 2.7rem; }
-  .bodyStyles2 h3 {
-    font-size: 1.6rem;
     line-height: 2.5rem; }
+  .bodyStyles2 h3 {
+    font-size: 1.7rem;
+    line-height: 2.1rem; }
   .bodyStyles2 h4 {
     font-size: 1.5rem;
     line-height: 2rem; }
