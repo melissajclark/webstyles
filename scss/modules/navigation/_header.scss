@@ -1,7 +1,11 @@
 #site-header {
-	margin-bottom: 45px;
+	margin-bottom: 100px;
 	position: relative;
 	z-index: 250;
+	h1 {
+		line-height:1;
+		text-align:center;
+	}
 	img {
 		height: auto;
 	}
