@@ -55,9 +55,9 @@ $(document).ready(function(){
 	*
 	**/
 	
-	$(".readMore").readmore({
-		speed: 100,
-		collapsedHeight:200
-	});
+	// $(".readMore").readmore({
+	// 	speed: 100,
+	// 	collapsedHeight:200
+	// });
 
 }); // doc ready
