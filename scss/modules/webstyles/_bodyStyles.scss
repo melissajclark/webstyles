@@ -8,15 +8,23 @@
 
 .bodyStylesContainer {
 	clear:both;
+	margin:2% 0 0 0;
 }
 
 .bodyStylesContent {
-	width:45%;
+	width:44%;
 	float:left;
-	margin:0 4% 0 0;
+	padding:0 3% 0 0;
+	border-right:$border;
+
+	&:last-of-type{
+		border-right:none;
+		padding:0 0 0 3%;
+	}
 
 	@include breakpoint(tiny){
 		width:100%;
-		margin:0;
+		padding:0;
+		border-right:none;
 	}
 }
