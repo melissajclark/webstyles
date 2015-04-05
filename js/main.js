@@ -55,7 +55,7 @@ $(document).ready(function(){
 	*
 	**/
 	
-	$(".bodyStyles").readmore({
+	$(".readMore").readmore({
 		speed: 100,
 		embedCSS: true,
 		collapsedHeight:300
