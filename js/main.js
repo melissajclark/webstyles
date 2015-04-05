@@ -57,7 +57,6 @@ $(document).ready(function(){
 	
 	$(".readMore").readmore({
 		speed: 100,
-		embedCSS: true,
 		collapsedHeight:300
 	});
 
