@@ -49,4 +49,15 @@ $(document).ready(function(){
 
 	/* / end functions on code reveal button  */
 
+	/**
+	*
+	* ReadMore: hides lengthy typography sections until clicked
+	*
+	**/
+	
+	$(".readMore").readmore({
+		speed: 100,
+		collapsedHeight:200
+	});
+
 }); // doc ready
