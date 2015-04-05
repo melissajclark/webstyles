@@ -601,7 +601,7 @@ a {
   @media (max-width: 1150px) {
     .codeExample {
       width: 100%;
-      max-width: 800px; } }
+      max-width: 640px; } }
 
 .hidden {
   display: none; }
@@ -619,10 +619,13 @@ a {
   /* Individual Swatches */ }
   .colourPalette.colourPaletteCodeVisible {
     float: left;
-    width: 60%; }
+    width: 55%;
+    margin: 0 0 0 5%; }
     @media (max-width: 1150px) {
       .colourPalette.colourPaletteCodeVisible {
-        width: 100%; } }
+        width: 100%;
+        margin: 0;
+        max-width: 640px; } }
   .colourPalette a.paletteSwatch {
     width: 160px;
     height: 160px;
