@@ -2,7 +2,7 @@ var gulp = require('gulp'),
     plumber = require('gulp-plumber'),
     sass = require('gulp-sass'),
     autoprefixer = require('gulp-autoprefixer'),
-    UglifyJS = require("uglify-js"),
+    uglifyjs = require("gulp-uglifyjs"),
     newer = require('gulp-newer');
 
 gulp.task('styles', function(){
@@ -21,10 +21,11 @@ gulp.task('watch', function() {
       gulp.watch('scss/**/*.scss', ['styles']);
 });
 
-gulp.task('uglifyJS', function(){
-  var result = UglifyJS.minify([ "js/main.js", "js/prism.js", "js/readmore.min.js" ]);
-  console.log(result.code);
+gulp.task('uglify', function() {
+  gulp.src('js/*.js')
+    .pipe(uglify())
+    .pipe(gulp.dest(''))
 });
 
 
-gulp.task('default', ['styles', 'watch', 'uglifyJS']);
+gulp.task('default', ['styles', 'watch', 'uglify']);
