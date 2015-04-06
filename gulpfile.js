@@ -22,8 +22,10 @@ gulp.task('watch', function() {
 });
 
 gulp.task('uglify', function() {
-  gulp.src('js/*.js')
-    .pipe(uglify())
+  gulp.src('public/js/*.js')
+    .pipe(uglify('app.min.js', {
+      outSourceMap: true
+    }))
     .pipe(gulp.dest(''))
 });
 
