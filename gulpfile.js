@@ -23,7 +23,7 @@ gulp.task('watch', function() {
 
 gulp.task('uglify', function() {
   gulp.src('js/*.js')
-    .pipe(uglify('main.min.js', {
+    .pipe(uglify('js/app.min.js', {
       outSourceMap: false
     }))
     .pipe(gulp.dest(''))
