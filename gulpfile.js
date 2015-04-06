@@ -21,4 +21,10 @@ gulp.task('watch', function() {
       gulp.watch('scss/**/*.scss', ['styles']);
 });
 
-gulp.task('default', ['styles', 'watch']);
+gulp.task('uglifyJS', function(){
+  var result = UglifyJS.minify([ "js/main.js", "js/prism.js", "js/readmore.min.js" ]);
+  console.log(result.code);
+});
+
+
+gulp.task('default', ['styles', 'watch', 'uglifyJS']);
