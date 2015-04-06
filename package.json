@@ -4,6 +4,7 @@
     "gulp-sass": "*",
     "gulp-autoprefixer": "*",
     "gulp-newer": "*",
+    "gulp-UglifyJS": "*",
     "gulp-plumber": "*"
   }
 }
