@@ -2,6 +2,7 @@ var gulp = require('gulp'),
     plumber = require('gulp-plumber'),
     sass = require('gulp-sass'),
     autoprefixer = require('gulp-autoprefixer'),
+    UglifyJS = require("uglify-js"),
     newer = require('gulp-newer');
 
 gulp.task('styles', function(){
