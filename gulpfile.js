@@ -2,7 +2,7 @@ var gulp = require('gulp'),
     plumber = require('gulp-plumber'),
     sass = require('gulp-sass'),
     autoprefixer = require('gulp-autoprefixer'),
-    uglifyjs = require("gulp-uglifyjs"),
+    uglify = require("gulp-uglifyjs"),
     newer = require('gulp-newer');
 
 gulp.task('styles', function(){
@@ -22,12 +22,12 @@ gulp.task('watch', function() {
 });
 
 gulp.task('uglify', function() {
-  gulp.src('public/js/*.js')
-    .pipe(uglify('app.min.js', {
-      outSourceMap: true
+  gulp.src('js/*.js')
+    .pipe(uglify('main.min.js', {
+      outSourceMap: false
     }))
     .pipe(gulp.dest(''))
 });
 
 
-gulp.task('default', ['styles', 'watch', 'uglify']);
+gulp.task('default', ['styles', 'uglify', 'watch', ]);
