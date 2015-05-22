@@ -5,11 +5,9 @@
 
 **Description:** Responsive HTML & CSS template with repeatable patterns for exploring design elements such as colours or typography. 
 
-hello
-
 ## Update: April 2015
 
-I started this project nearly a year ago. I use it in some form on every client project to communicate my ideas and plans for a website. I originally used a CSS framework, and the code became bloated. I'm currently updating the project and cleaning it up. See the old version at http://webstyles.ninja, or the in progress version at http://melissajclark.github.io/webstyles/. 
+I started this project nearly a year ago. I use it in some form on every client project to communicate my ideas and plans for a website. I originally used a CSS framework, and the code became bloated. 
 
 *****
 
@@ -26,10 +24,9 @@ So, I created this template. My **Web Styles** template is nothing fancy but it 
 ### What You Can Do with Web Styles 
 
 1. Quickly enter hexcodes to experiment with colours for a design
-2. Test out different fonts for your project's copy
-3. Compare different typefaces and share with your client - in the browser.
-4. Easily switch to a different font or colour using the included variables. 
-5. Experiment with layouts using the included grid (from [Skeleton](http://www.getskeleton.com/))
-6. Begin building a style guide *while* you develop your initial design.
+- Test out different fonts for your project's copy
+- Compare different typefaces and share with your client - in the browser.
+- Easily switch to a different font or colour using the included variables. 
+- Begin building a style guide *while* you develop your initial design.
 
 
